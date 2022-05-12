@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mind_600"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/title_image_width"
+        android:layout_height="@dimen/title_image_height"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/imageView1"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/maths_practice_1" />
+     
+
+</RelativeLayout>

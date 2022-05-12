@@ -1,0 +1,82 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arkay.mathspractice"
+    android:versionCode="14"
+    android:versionName="2.4" 
+    android:installLocation="auto">
+    
+ <supports-screens
+       android:largeScreens="true"
+       android:normalScreens="true"
+       android:smallScreens="false"
+       android:anyDensity="true" /> 
+     
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.VIBRATE" />
+     
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".MathsPractice" android:screenOrientation="portrait"
+            android:label="@string/title_activity_maths_practice" android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Main" android:screenOrientation="portrait"
+            android:label="@string/title_activity_maths_practice" android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        
+         <activity
+            android:name=".GamePlay" android:screenOrientation="portrait"
+            android:label="@string/title_activity_maths_practice" android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name=".PlayOption" android:screenOrientation="portrait"
+            android:label="@string/title_activity_maths_practice" android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name=".SettingOption" android:screenOrientation="portrait"
+            android:label="@string/title_activity_maths_practice" android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        
+        <activity
+            android:name=".PlayOptionAddtitionSubtraction" android:screenOrientation="portrait"
+            android:label="@string/title_activity_maths_practice" android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        
+     	<!-- Google Play Service -->
+    	<meta-data android:name="com.google.android.gms.version"
+               android:value="@integer/google_play_services_version"/>
+        
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+        android:value="@string/app_id" />
+        <!-- End Google Play  -->
+        
+ 		<!-- Ad MOb -->
+       <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <!-- End Admob -->
+
+		<!-- Cloud Save -->
+		<meta-data android:name="com.google.android.gms.appstate.APP_ID"
+            android:value="@string/app_id" />
+		<!-- End Cloud Save -->
+
+ 	</application>
+
+</manifest>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_below="@+id/relativeLayout1"
+         >
+
+ 		<GridView
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:horizontalSpacing="2dp"
+            android:numColumns="auto_fit"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="2dp" >
+        </GridView> 
+        
+       
+
+ </RelativeLayout>
+ 
+  <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_layout_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layout_score" >
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="@dimen/top_pause_button_size"
+            android:layout_height="@dimen/top_pause_button_size"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/play_150" />
+
+        <RelativeLayout
+            android:id="@+id/clock_layout"
+            android:layout_width="@dimen/top_layout_height"
+            android:layout_height="@dimen/top_layout_height"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/clock_2" >
+            
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="00"
+                android:textColor="@color/White"
+                android:textSize="@dimen/timer_text_size"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/top_layout_height"
+            android:layout_height="@dimen/top_layout_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/answare_tablet" >
+
+            <TextView
+                android:id="@+id/txt_answare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="25"
+                android:textColor="#ef0808"
+                android:textSize="@dimen/timer_text_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout> 
+    
+
+
+    <RelativeLayout
+        android:id="@+id/layout_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/BlueButtonStartColor" >
+        
+            
+        <ImageView
+           android:id="@+id/imageView3"
+           android:layout_width="wrap_content"
+           android:layout_height="@dimen/top_score_coin_size"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="@dimen/top_score_coin_size"
+           android:layout_toLeftOf="@+id/txt_score_display"
+           android:src="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/txt_operation_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:textColor="@color/White"
+        android:textSize="@dimen/top_score_operation_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_level_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+        android:background="@drawable/background_question"
+        android:text="@string/level_no"
+        android:textColor="@color/BlueButtonBorderColor"
+        android:textSize="@dimen/top_score_level_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_score_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_question"
+        android:text="254000"
+        android:textColor="@color/DarkGoldenrod"
+        android:textSize="@dimen/top_score_text_size"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+  

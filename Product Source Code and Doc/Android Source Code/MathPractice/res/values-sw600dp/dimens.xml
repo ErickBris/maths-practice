@@ -1,0 +1,52 @@
+<resources>
+
+    <dimen name="padding_small">15dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+
+    <dimen name="button_width">300dp</dimen>
+    <dimen name="button_height">70dp</dimen>
+    <dimen name="button_top_margin">30dp</dimen>
+    
+    <dimen name="title_image_width">450dp</dimen>
+    <dimen name="title_image_height">150dp</dimen>
+    
+    
+
+        <!-- Start Play Screen -->
+    <dimen name="time_feft_margin">20dp</dimen>
+    <dimen name="try_top_margin">30dp</dimen>
+    <dimen name="top_score_text_size">40dp</dimen>
+    <dimen name="top_score_coin_size">40dp</dimen>
+     <dimen name="top_score_level_size">30sp</dimen>
+     <dimen name="top_score_operation_size">30sp</dimen>
+    
+     <dimen name="quiz_top_score_text">30sp</dimen>
+     
+     
+     <dimen name="square_box_size">45sp</dimen>
+    
+          <!-- Dialog  -->
+     <dimen name="top_heading">30sp</dimen>
+     <dimen name="top_sub_heading">28sp</dimen>
+     <dimen name="top_sub_margin">40sp</dimen>
+     <dimen name="dialog_button_width">500dp</dimen>
+     <dimen name="dialog_button_height">90dp</dimen>
+     <dimen name="dialog_button_text_size">40sp</dimen>
+     
+     <dimen name="top_layout_height">80dp</dimen>
+     <dimen name="top_pause_button_size">70dp</dimen>
+     
+     <dimen name="timer_text_size">50sp</dimen>
+     
+     <dimen name="close_dialog_size">450dp</dimen>
+     
+     <dimen name="button_border_stock">3dp</dimen>
+     
+     <dimen name="select_operation_text_size">50sp</dimen>
+     <dimen name="select_operation_top_margin">40dp</dimen>
+     
+      <dimen name="facebook_button_width">180dp</dimen>
+      <dimen name="facebook_button_height">60dp</dimen>
+      
+</resources>

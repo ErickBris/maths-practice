@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/close_dialog_size"
+    android:background="@drawable/background_dialog"
+    android:orientation="vertical" >
+
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginTop="-5dp"
+        android:background="@drawable/button_dialog_top" >
+
+         <TextView
+             android:id="@+id/txtLevelHeading"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:text="Time Up!"
+             android:textColor="@color/White"
+             android:textSize="@dimen/top_heading"
+             android:textStyle="bold" />
+    
+        </RelativeLayout>
+        
+    <TextView
+        android:id="@+id/txtLevelScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_sub_margin"
+        android:text="Score: 525.62 Sec."
+        android:textColor="@color/White"
+        android:textSize="@dimen/top_sub_heading"
+        android:textStyle="bold" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txtLevelTotalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_sub_margin"
+        android:text="Score: 525.62 Sec."
+        android:textColor="@color/White"
+        android:textSize="@dimen/top_sub_heading"
+        android:textStyle="bold" >
+    </TextView>
+
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/top_sub_margin" >
+         
+         <Button
+             android:id="@+id/btnPlayAgain"
+             android:layout_width="@dimen/dialog_button_width"
+             android:layout_height="@dimen/dialog_button_height"
+             android:background="@drawable/nice_button"
+             android:clickable="true"
+             android:text="Play Again"
+             android:textColor="@color/White"
+             android:textSize="@dimen/dialog_button_text_size"
+             android:textStyle="bold" />
+         
+     </LinearLayout>
+    <!-- <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/btnPlayAnotherLevel"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_dark_blue"
+            android:clickable="true"
+            android:text="@string/Another_Level"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMainMenu"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_dark_blue"
+            android:clickable="true"
+            android:text="@string/Main_Menu"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+    </LinearLayout> -->
+
+</LinearLayout>

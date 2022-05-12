@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">Maths Practice</string>
+    
+     <!-- Replace you Admob Unit - id here -->
+    <string name="admob_banner_ads">ca-app-pub-1891613648627380/8137340552</string>
+    <string name="admob_interstitial_ads">ca-app-pub-1891613648627380/4776682959</string>
+    
+    <!-- This will true if you testing app when you publish on play store make if fasle -->
+    <bool name="istestmode">false</bool>	
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_maths_practice">Maths Practice</string>
+    <string name="newgame">New Game</string>
+    <string name="settings">Settings</string>
+    <!-- <string name="howtoplay">How to play</string>
+    <string name="highscore">High scores</string> -->
+     
+    
+    <string name="level_completed">Level Completed</string>
+	<string name="rate_it">Rate it</string>
+	
+	<string name="hard">Challenge</string>
+	<string name="freeplay">Free Play</string>
+	
+	<string name="level_no">Level No: </string>
+	<string name="instruction">Instructions</string>	
+	<string name="addition">Addition</string>	
+	<string name="multplication">Multiplication</string>
+	<string name="selectoperation">Select Operation</string>
+
+	  
+		
+	 <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="achievement">Achievement</string>
+ 	 <string name="leaderboard">Leader Board</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+ 	<string name="sign_out">Sign out</string>
+ 	
+ 	<string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+   
+    
+    <string name="setting">Settings</string>
+    
+    <string name="sound_effect_on">Sound fffect ON</string>
+    <string name="sound_effect_off">Sound fffect OF</string>
+    
+    <string name="vibrate_on">Vibrant ON</string>
+	<string name="vibrate_off">Vibrant OFF</string>
+	
+	<string name="sound_on">Music ON</string>
+	<string name="sound_off">Music OFF</string>
+	
+	
+    <string name="share_me">Share Me</string>
+    <string name="rate_me">Rate Me</string>
+		
+    <string name="level">Level </string>
+    <string name="finished">Finished..</string>
+    
+	
+	
+</resources>

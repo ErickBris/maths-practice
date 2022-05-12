@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+  <string name="app_id">428270363592</string>
+  <string name="achievement_beginner">CgkIyMect7sMEAIQBQ</string>
+  <string name="achievement_started">CgkIyMect7sMEAIQBg</string>
+  <string name="achievement_right_track_on_addition">CgkIyMect7sMEAIQBw</string>
+  <string name="achievement_good_in_maths_addition">CgkIyMect7sMEAIQCA</string>
+  <string name="achievement_master_in_maths_addition">CgkIyMect7sMEAIQCQ</string>
+  <string name="achievement_expert_in_maths_addition">CgkIyMect7sMEAIQCg</string>
+  <string name="achievement_good_luck">CgkIyMect7sMEAIQCw</string>
+  <string name="achievement_fifty">CgkIyMect7sMEAIQDA</string>
+  <string name="achievement_hundred">CgkIyMect7sMEAIQDQ</string>
+  <string name="achievement_thousand">CgkIyMect7sMEAIQDg</string>
+  <string name="achievement_no_higher">CgkIyMect7sMEAIQEg</string>
+  <string name="achievement_curious">CgkIyMect7sMEAIQDw</string>
+  <string name="achievement_very_curious">CgkIyMect7sMEAIQEA</string>
+  <string name="achievement_perfectionist">CgkIyMect7sMEAIQEw</string>
+  <string name="achievement_good_in_addition">CgkIyMect7sMEAIQFA</string>
+  <string name="achievement_cool_in_addition">CgkIyMect7sMEAIQFQ</string>
+  <string name="achievement_very_good_in_addtion">CgkIyMect7sMEAIQFg</string>
+  <string name="achievement_fentastic_in_addtion">CgkIyMect7sMEAIQFw</string>
+  <string name="achievement_phenomenal_in_addition">CgkIyMect7sMEAIQGA</string>
+  <string name="achievement_perfect_in_addition">CgkIyMect7sMEAIQGQ</string>
+  <string name="achievement_arkay_maths_additon_master_award">CgkIyMect7sMEAIQGg</string>
+  <string name="achievement_good_in_multiplication">CgkIyMect7sMEAIQGw</string>
+  <string name="achievement_cool_in_multiplication">CgkIyMect7sMEAIQHA</string>
+  <string name="achievement_very_good_in_multiplication">CgkIyMect7sMEAIQHQ</string>
+  <string name="achievement_fentastic_in_multiplication">CgkIyMect7sMEAIQHg</string>
+  <string name="achievement_phenomenal_in_multiplication">CgkIyMect7sMEAIQHw</string>
+  <string name="achievement_perfect_in_multiplication">CgkIyMect7sMEAIQIA</string>
+  <string name="achievement_arkay_maths_multiplication_master_award">CgkIyMect7sMEAIQIQ</string>
+  <string name="achievement_basic_in_maths">CgkIyMect7sMEAIQIg</string>
+  <string name="achievement_starting_in_maths">CgkIyMect7sMEAIQIw</string>
+  <string name="achievement_biggner_in_maths">CgkIyMect7sMEAIQJA</string>
+  <string name="achievement_learner_in_maths">CgkIyMect7sMEAIQJQ</string>
+  <string name="achievement_narrow_escape">CgkIyMect7sMEAIQJg</string>
+  <string name="achievement_quick_solver">CgkIyMect7sMEAIQJw</string>
+  <string name="achievement_maths_brain">CgkIyMect7sMEAIQKA</string>
+  <string name="achievement_right_track_on_multiplication">CgkIyMect7sMEAIQKQ</string>
+  <string name="achievement_good_in_maths_multiplication">CgkIyMect7sMEAIQKg</string>
+  <string name="achievement_master_in_maths_multiplication">CgkIyMect7sMEAIQKw</string>
+  <string name="achievement_expert_in_maths_multiplication">CgkIyMect7sMEAIQLA</string>
+  <string name="leaderboard_addition_challenge">CgkIyMect7sMEAIQAQ</string>
+  <string name="leaderboard_multiplication_challenge">CgkIyMect7sMEAIQAw</string>
+</resources>

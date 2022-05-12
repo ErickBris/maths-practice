@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+       <shape>
+          <!--   <gradient
+               android:endColor="@color/GameStartColor"
+               android:startColor="@color/GameEndColor"
+               android:angle="270" /> -->
+               <gradient 
+                android:startColor="@color/GameStartColor"
+        		android:centerColor="@color/GameStartMddleColor"
+        		android:endColor="@color/GameEndColor"
+        		
+        		android:gradientRadius="350"
+        		android:type="radial"
+        		/>
+            <stroke
+               android:width="1dp"
+               android:color="@color/GameBorderColor" />
+            
+        </shape>
+   </item>
+   
+     <item>
+       <bitmap android:src="@drawable/dialog_background"/>
+   </item>
+
+</layer-list>
